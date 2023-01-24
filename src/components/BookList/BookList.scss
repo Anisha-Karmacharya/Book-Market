@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../assets/Font/Montserrat/Montserrat-SemiBold.ttf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.book{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color:#80471C;
+    text-decoration-line: underline;
+   
+}
+.books{
+    margin-bottom: 15px;
+    
+}
+.position-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    width: 550px;
+    margin-top: 170px;
+    margin-left: 1300px;
+    margin-bottom: 10px;
+  
+}

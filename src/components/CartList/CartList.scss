@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../assets/Font/Montserrat/Montserrat-Regular.ttf);
+}
+*{
+    scroll-behavior: smooth;
+    
+}
+.amount{
+    color: white;
+    background-color: #c08558;
+    letter-spacing: 2px;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.borderoutline{
+    padding: 1rem;
+    margin-right: .5rem;
+    background-color: #c0855821;
+   
+}
+.itemInCart{
+    color:#80471C;
+    font-family: 'Comfortaa', cursive;
+}

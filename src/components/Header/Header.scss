@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Carlantans;
+    src: url(../../assets/Font/Carlantans.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../assets/Font/Montserrat/Montserrat-Regular.ttf);
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+.navContainer{
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.navBar{
+    padding: 2rem 0 2rem;
+    background-color: white;
+}
+.nav{
+    top: 2rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.navLogo{
+    color: #80471C;
+    font-weight: 600;
+    font-family: Carlantans;
+    font-size: 4.5rem;
+    margin-left: 5rem;
+}
+.navLogo:hover{
+    color: #c08558;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-self: flex-end;
+    margin-right: 5rem;
+}
+.navLink{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #80471C;
+    margin-top: 2rem;
+
+}
+.navLink:hover{
+    color: #c08558;
+}
+.navItem{
+    list-style: none;
+}
+.cart{
+   margin-top: 50px;
+    font-size: 46px
+}
+a{
+    color: #80471C;
+    text-decoration: none;
+}
+a.hover{
+    color: #c08558; 
+}
+p:first-child {
+    margin-top: 45px;
+}

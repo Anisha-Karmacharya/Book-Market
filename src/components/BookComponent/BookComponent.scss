@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../assets/Font/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Carlantans;
+    src: url(../../assets/Font/Carlantans.otf);
+}
+.btn{
+    border: none;
+    padding: .95rem;
+    border-radius: 8px;
+    color: #80471C;
+    outline: none;
+    font-size: 32px;
+}
+.btn:hover{
+    background-color: #c08558;
+}
+.button{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.text-muted{
+    font-size: 16px;
+}
+.title{
+    color: #80471C;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.genre{
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 10px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color:#80471C;
+    border-bottom: 2px solid #80471C;
+}
+
+.price{
+    font-size: 18px;
+    color: #616060;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.date{
+    font-size: 18px;
+    color: #616060;
+    font-weight: 500;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Carlantans;
+    src: url(../../assets/Font/Carlantans.otf);
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../assets/Font/Montserrat/Montserrat-SemiBold.ttf);
+}
+.bin{
+    color: #80471C;
+    font-weight: 500;
+    font-size: 28px;   
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+.text{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.name{
+    font-family: 'Comfortaa', cursive;
+    border-bottom: 3px solid #80471C;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.5rem;
+}
+.button{
+    background-color: #80471C;
+    padding: 5px;
+    margin: 10px;
+    width: 30px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.bookName{
+    font-family: 'Comfortaa', cursive;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color:#80471C;
+   
+}

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Carlantans;
+    src: url(../../assets/Font/Carlantans.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../assets/Font/Montserrat/Montserrat-Regular.ttf);
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+.footer{
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #80471C;
+    color: #fff;
+    letter-spacing: 2px;
+    // margin-top: 150px;
+}
+.footerContainer{
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.footerBg{
+    padding: 2rem 0 3rem;
+}
+.footerTitle{
+    font-weight: 500;
+    font-family: Carlantans;
+    font-size: 4.5rem;
+    margin-bottom: 0.25rem;
+}
+.footerLinks{
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.footerlink{
+    color: #fff;
+
+}
+.footerSocials{
+    justify-self: flex-end;
+    margin-right: 1.5rem;
+}
+.footerSocial{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    color: #fff;
+}
+.footerSocial:hover{
+    color: #c08558;
+}
+.footerCopy{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .85rem;
+    text-align: center;
+    margin-top: 4.5rem;
+}
